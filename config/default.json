@@ -6,11 +6,11 @@
     },
     "accounting": {
         "roles": ["Doctor", "Nurse", "Admin"],
-        "doctor_role": "doctor",
+        "doctor_role": "Doctor",
         "admin_role": "Admin",
         "nurse_role": "Nurse",
         "salt_rounds":  10,
-        "expired_in": "1h" 
+        "expired_in": "100h" 
     },
     "db": {
         "db_name": "sample_mflix",

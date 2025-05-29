@@ -38,3 +38,7 @@ export const schemaEmailNameRolePassword = Joi.object({
     role: role.required(),
     password: password.required()
 });
+
+export const schemaRole = Joi.object({
+    role: role.required()
+})
